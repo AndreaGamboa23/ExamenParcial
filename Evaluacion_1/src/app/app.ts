@@ -1,13 +1,21 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { AsideComponente } from './components/aside-componente/aside-componente';
+import { FooterComponente } from './components/footer-componente/footer-componente';
 import { Headercomponente } from './components/headercomponente/headercomponente';
-import { Maincomponente } from './componenets/maincomponente/maincomponente';
+import { Maincomponente } from './components/maincomponente/maincomponente';
 
 @Component({
-  imports: [RouterOutlet, Headercomponente, Maincomponente],
   selector: 'app-root',
-  styleUrl: './app.css',
+  imports: [
+    RouterOutlet,
+    AsideComponente,
+    FooterComponente,
+    Headercomponente,
+    Maincomponente
+  ],
   templateUrl: './app.html',
+  styleUrl: './app.css'
 })
 export class App {
   protected readonly title = signal('Evaluacion_1');
