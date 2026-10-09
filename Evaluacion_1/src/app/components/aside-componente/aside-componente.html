@@ -1,0 +1,42 @@
+<aside class="aside-container p-4 rounded-4 bg-white border shadow-sm my-4">
+    <div class="aside-header mb-3">
+      <span class="aside-eyebrow">MATRÍCULA 2026</span>
+      <h3 class="aside-title">Centro de Idiomas</h3>
+    </div>
+  
+    <!-- Requisitos -->
+    <div class="mb-4">
+      <h4 class="aside-subtitle">Requisitos Directos</h4>
+      <ul class="list-unstyled custom-list mt-3">
+        @for (req of requisitos; track req) {
+          <li class="d-flex align-items-start mb-2">
+            <span class="list-icon check-icon me-2">✓</span>
+            <span>{{ req }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+  
+    <hr class="aside-divider">
+  
+    <!-- Beneficios -->
+    <div class="mb-4">
+      <h4 class="aside-subtitle">Beneficios de Estudiar Idiomas</h4>
+      <ul class="list-unstyled custom-list mt-3">
+        @for (ben of beneficios; track ben) {
+          <li class="d-flex align-items-start mb-2">
+            <span class="list-icon star-icon me-2">✦</span>
+            <span>{{ ben }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+  
+    <!-- Card de Atención en Azul Corporativo -->
+    <div class="aside-card p-3 rounded-3 text-center mt-3">
+      <span class="aside-card-icon">↗</span>
+      <h5 class="fw-bold mt-2 text-white fs-6">¿Tienes dudas sobre tu nivel?</h5>
+      <p class="small text-white-50 mb-3">Rinde tu prueba de clasificación 100% virtual y gratuita.</p>
+      <a href="#contacto" class="btn btn-aside-action btn-sm w-100 fw-bold">Solicitar Examen</a>
+    </div>
+  </aside>

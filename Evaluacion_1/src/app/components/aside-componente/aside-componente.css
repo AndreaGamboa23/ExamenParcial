@@ -1,0 +1,81 @@
+.aside-container {
+    border-color: #cbd5e1 !important;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .aside-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #0284c7;
+    display: block;
+  }
+  
+  .aside-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0;
+  }
+  
+  .aside-subtitle {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0;
+  }
+  
+  .custom-list {
+    font-size: 0.875rem;
+    color: #334155;
+  }
+  
+  .list-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+  
+  .check-icon {
+    background-color: #e0f2fe;
+    color: #0369a1;
+  }
+  
+  .star-icon {
+    background-color: #e0f2fe;
+    color: #0284c7;
+  }
+  
+  .aside-divider {
+    border-top: 1px solid #e2e8f0;
+    margin: 1.25rem 0;
+  }
+  
+  .aside-card {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+    color: white;
+  }
+  
+  .aside-card-icon {
+    font-size: 1.2rem;
+    color: #38bdf8;
+  }
+  
+  .btn-aside-action {
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-aside-action:hover {
+    background-color: #0369a1;
+    color: white;
+  }
